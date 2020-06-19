@@ -17,10 +17,20 @@ body {
   align-items: center;
 }
 
+.wrapper h1 {
+  font-size: 3em;
+}
+
+.wrapper h2 {
+  font-size: 2em;
+  color: green;
+}
+
 .wrapper ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 40px;
 }
 
 .wrapper ul li {
@@ -28,9 +38,16 @@ body {
   float: left;
   width: 150px;
   height: 150px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .wrapper ul li a img {
   border-radius: 5px;
   width: 100%;
+}
+
+.wrapper ul li a img span {
+  text-align: center;
+  font-size: 1.4em;
 }
