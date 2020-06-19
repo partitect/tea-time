@@ -2,7 +2,7 @@
 
 setInterval(function () {
   selectedTea();
-}, 300000);
+}, 10000);
 
 function selectedTea() {
   var selected = Math.floor(Math.random() * $('.caycilar li').length);

@@ -1,4 +1,4 @@
-setInterval(function(){ selectedTea(); }, 300000);
+setInterval(function(){ selectedTea(); }, 10000);
 
 function selectedTea(){
     const selected = Math.floor((Math.random() * $('.caycilar li').length))
