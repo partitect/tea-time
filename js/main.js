@@ -15,10 +15,3 @@ function selectedTea(){
     $(".selected").html(selectedUser)
 
 }
-
-window.OneSignal = window.OneSignal || [];
-OneSignal.push(function() {
-  OneSignal.init({
-    appId: "e9918989-434e-45d7-bdf0-8ce3c8ca81dd",
-  });
-});
